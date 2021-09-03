@@ -1,0 +1,46 @@
+body{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.icon-bar {
+  width: auto; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+  height:25%;
+}
+
+.icon-bar a,.search,.submit {
+  float: right; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 13px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color:black; /* White text color */
+  font-size: 20px; /* Increased font size */
+ 
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+h1{
+  font-size:50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+  padding:20px 20px;
+  text-align: center;
+  
+}
+.object1
+{
+    width: 15cm;
+    border: 5px solid rgb(16, 22, 16);
+
+ 
+}

@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin:0;
+    background-color:whitesmoke;
+
+}
+
+.navtop {
+    background-color: #0f1312;
+    height: 50px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 44px;
+    float:right;
+    padding-left:630px;
+    padding-top:10px;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items:center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ecf0f6;
+
+
+}
+.navtop div a {
+    padding: 0 40px;
+    text-decoration: none;
+    color: #e5e9ee;
+    
+}
+.navtop div input [type=text]
+{
+        font-size: 17px;
+        display: block;
+        text-align: left;
+        margin: 0;
+        
+}
+.navtop div a i {
+    padding: 2px 4px 0 0;
+}
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    color: #666666;
+    text-align: center;
+}
+.content p{
+    font-size:150px;
+    text-align: center;
+}
+
+  .update form input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+.read .create-object {
+    display: inline-block;
+    text-decoration: none;
+    background-color:rgba(6, 84, 121, 0.856);
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 15px 0;
+    
+}
+.read .create-object:hover {
+    background-color:white;
+}
+.read .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+.read .pagination a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a5a7a9;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 15px 0 15px 5px;
+}
+.read .pagination a:hover {
+    background-color:gainsboro;
+}
+.read table {
+    width: 100%;
+    padding-top: 30px;
+    border-collapse: collapse;
+    border-top: #0c0d0e;
+}
+.read table thead {
+    background-color:lightskyblue;
+    border-bottom: 1px solid #15181b;
+}
+.read table thead td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    
+    
+}
+.read table tbody tr {
+    border-bottom: 1px solid #0c0d0e;
+    border-left: #0c0d0e;
+    
+}
+.read table tbody tr:nth-child(even) {
+    background-color:lightskyblue;
+}
+.read table tbody tr:hover {
+    background-color:lightskyblue;
+}
+.read table tbody tr:hover td {
+    color:white;
+}
+.read table tbody tr:hover td:nth-child(1) {
+    color:black;
+}
+.read table tbody tr td {
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.read table tbody tr td:nth-child(1) {
+    color:black;
+}
+.read table tbody tr td.actions {
+    padding: 8px;
+    text-align: right;
+}
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions .trash {
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 12px;
+}
+.read table tbody tr td.actions .trash {
+    background-color:rgba(6, 84, 121, 0.856);
+}
+.read table tbody tr td.actions .trash:hover {
+    background-color :gainsboro;
+}
+.read table tbody tr td.actions .edit {
+    background-color:rgba(6, 84, 121, 0.856);
+}
+.read table tbody tr td.actions .edit:hover {
+    background-color: gainsboro;
+}
+.update form {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+.update form label {
+    display: inline-flex;
+    width: 400px;
+    padding: 10px 0;
+    margin-right: 25px;
+}
+.update form input {
+    padding: 10px;
+    width: 400px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    resize:vertical
+}
+.update form input[type="submit"],textarea {
+    display: block;
+    background-color: rgba(6, 84, 121, 0.856);
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 200px;
+  margin-top: 15px;
+  resize:vertical;
+}
+.update form input[type="submit"]:hover {
+    background-color: rgba(6, 84, 121, 0.856);
+}
+.delete .yesno {
+    display: flex;
+}
+.delete .yesno a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(6, 84, 121, 0.856);
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    margin: 15px 10px 15px 10px;
+    text-align: center;
+}
+.delete .yesno a:hover {
+    background-color: rgba(6, 84, 121, 0.856);
+}
+footer a {
+    text-align:left;
+    color: white;
+    margin:0;
+  }
+  footer{
+      background-color: black;
+  }
+ 
+
+ 

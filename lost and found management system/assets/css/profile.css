@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(72,72,72);
+    /* Change the position property to fixed, and top property to 0 */
+    position:fixed;
+    top:0;
+    opacity:1;
+    /* Change the z-index property to 10 */
+    z-index:10;
+  }
+  
+  .logo {
+    color:white;
+    font-size:24px;
+    margin-top:20px;
+  }
+  .logoimg{
+  width:110px;
+  height:60px;
+  position: relative;
+  top:-22px;
+  margin-left:-40px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(31, 5, 5, 0.5);
+    
+  }
+  
+  .header-right a {
+    float:right;
+    line-height: 65px;
+    padding-right:37.5px;
+    color: white;
+    
+      }
+   .header-right1{
+    float:right;
+    padding-top:25px;
+    padding-right:37.5px;
+    color:white;
+  }
+  .home {
+    color:white;
+    padding-right:25px;
+  }
+  .notification{
+    color:white;
+    padding-right:0;
+    
+  }
+  .content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}

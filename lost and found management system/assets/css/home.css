@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+  }
+  
+  
+  .top-wrapper {
+    padding: 180px 0 90px 0;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)),url("https://media.istockphoto.com/videos/using-laptop-late-in-night-video-id643282534?s=640x640");
+    background-size: cover;
+    height:250px;
+    color: white;
+    text-align: center;
+  }
+  
+  .container h1{
+    font-size: 50px;
+    font-style: bold;
+    }
+    .container h4{
+      font-style:italic;
+    }
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(72,72,72);
+    /* Change the position property to fixed, and top property to 0 */
+    position:fixed;
+    top:0;
+    opacity:1;
+    /* Change the z-index property to 10 */
+    z-index:10;
+  }
+  
+  .logo {
+    color:white;
+    font-size:24px;
+    margin-top:20px;
+  }
+  .logoimg{
+  width:110px;
+  height:60px;
+  position: relative;
+  top:-22px;
+  margin-left:-40px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+ 
+  .header-right a {
+    float:right;
+    line-height: 65px;
+    padding-right:37.5px;
+    color: white;
+    
+      }
+   .header-right1{
+    float:right;
+    padding-top:25px;
+    padding-right:37.5px;
+    color:white;
+  }
+  .home {
+    color:white;
+    padding-right:25px;
+  }
+  .admin{
+    color:white;
+    
+  }
+  .lesson-wrapper {
+    height: 520px;
+    padding-bottom: 80px;
+    background-color:#F0FFF0;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson-icon {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width: 50%;
+  }
+  .btn {
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Grande' ;
+    border:none;
+    text-decoration: none;
+    display: inline-block;
+    width:380px;
+    height:150px;
+    border-radius: 12px;
+  }
+  .lesson-icon p{
+    color:grey;
+  }
+  h3{
+    font-size:50px;
+  }
+  .container h4{
+    font-size:22px;
+  }
+  
+  .working {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(72,72,72);
+    padding-top:8px;
+    margin-top:180px;
+    padding-bottom:150px;
+    color:rgb(100,149,237);
+    font-size:32px;
+  }
+  .working-pic{
+    height:10px;
+    width:10px;
+  }
+  .working h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size:35px;
+  }
+  .first-section{
+    float:left;
+    width:30%;
+    color:white;
+    font-size:18px;
+     padding:15px;
+     text-align:justify;
+  }
+  .second-section{
+    float:left;
+    width:30%;
+    color:white;
+    font-size:18px;
+     padding:15px;
+     text-align:justify;
+  }
+  .third-section{
+    float:left;
+    width:30%;
+    color:white;
+    font-size:18px;
+    text-align:justify;
+     padding:15px;
+  }
+  
+  

@@ -1,0 +1,180 @@
+body{
+    margin-top: auto;
+    color:rgb(20, 7, 7);
+    background-color:white;
+    font:600 16px/18px 'Open Sans',sans-serif;
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: 150%;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+  }
+  *,:after,:before{box-sizing:border-box}
+  .clearfix:after,.clearfix:before{content:'';display:table}
+  .clearfix:after{clear:both;display:block}
+  a{color:inherit;text-decoration:none}
+
+  
+  .login-wrap{
+    width:100%;
+    margin:auto;
+    margin-top:50px;
+    margin-right: 550px;
+    margin-bottom:50px;
+    max-width:550px;
+    min-height:550px;
+    position:relative;
+    background-position:center;
+    box-shadow:0 12px 15px 0 
+    ,0 17px 50px 0;
+  }
+  .login-html{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding:90px 70px 50px 70px;
+    background:lightblue;
+  }
+  .login-html .sign-in-htm{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    -webkit-backface-visibility:hidden;
+            backface-visibility:hidden;
+    transition:all .4s linear;
+  }
+  .login-html .sign-in,
+  .login-form .group .check{
+    display:none;
+  }
+  .login-html .tab,
+  .login-form .group .label,
+  .login-form .group .button{
+    text-transform:uppercase;
+  }
+  .login-html .tab{
+    font-size:22px;
+    margin-right:15px;
+    padding-bottom:5px;
+    margin:0 15px 10px 0;
+    display:inline-block;
+    border-bottom:2px solid transparent;
+  }
+  .login-html .sign-in:checked + .tab{
+    color:black;
+    border-color:skyblue;
+    font-weight: bolder;
+  }
+  .login-form{
+    min-height:345px;
+    position:relative;
+    -webkit-perspective:1000px;
+            perspective:1000px;
+    -webkit-transform-style:preserve-3d;
+            transform-style:preserve-3d;
+  }
+  .login-form .group{
+    margin-bottom:15px;
+  }
+  .login-form .group .label,
+  .login-form .group .input,
+  .login-form .group .button{
+    width:100%;
+    color:black;
+    display:block;
+  }
+  .login-form .group .input,
+  .login-form .group .button{
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    background:rgb(31, 138, 173);
+  }
+  .login-form .group input[data-type="password"]{
+    
+    -webkit-text-security:circle;
+  }
+  .login-form .group .label{
+    color:black;
+    font-size:12px;
+    font-weight:bold;
+  }
+  .login-form .group .button{
+    background:rgb(31, 138, 173);
+  }
+  .login-form .group label .icon{
+    width:15px;
+    height:15px;
+    border-radius:2px;
+    position:relative;
+    display:inline-block;
+    background:skyblue;
+  }
+  .login-form .group label .icon:before,
+  .login-form .group label .icon:after{
+    content:'';
+    width:10px;
+    height:2px;
+    background:black;
+    position:absolute;
+    transition:all .2s ease-in-out 0s;
+    font-weight: bold;
+  }
+  .login-form .group label .icon:before{
+    left:3px;
+    width:5px;
+    bottom:6px;
+    -webkit-transform:scale(0) rotate(0);
+            transform:scale(0) rotate(0);
+  }
+  .login-form .group label .icon:after{
+    top:6px;
+    right:0;
+    -webkit-transform:scale(0) rotate(0);
+            transform:scale(0) rotate(0);
+  }
+  .login-form .group .check:checked + label{
+    color:black;
+    font-weight: bold;
+  }
+  .login-form .group .check:checked + label .icon{
+    background:skyblue;
+  }
+  .login-form .group .check:checked + label .icon:before{
+    -webkit-transform:scale(1) rotate(45deg);
+            transform:scale(1) rotate(45deg);
+  }
+  .login-form .group .check:checked + label .icon:after{
+    -webkit-transform:scale(1) rotate(-45deg);
+            transform:scale(1) rotate(-45deg);
+  }
+  .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+    -webkit-transform:rotate(0);
+            transform:rotate(0);
+  }
+  .login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+    -webkit-transform:rotate(0);
+            transform:rotate(0);
+  }
+  .foot-lnk{
+    text-align:center;
+  }
+  .footer{
+    margin-top: 150px ;
+    height:100px;
+    width:100%;
+    background-color: black;
+    font-weight: bold;
+  }
+  .footer a{
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left:30px;
+    float:left;
+    color:white;
+    font-weight: bold;
+    
+  }
+  
